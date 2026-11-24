@@ -2,7 +2,7 @@ name: stats_course
 channels:
   - conda-forge
 dependencies:
-  - python
+  - python=3.13
   - numpy
   - scipy
   - matplotlib
@@ -21,6 +21,7 @@ dependencies:
   - dynesty
   - getdist
   - ipywidgets
+  - ipykernel
   - pytorch
   - pip
   - pip:
